@@ -44,7 +44,7 @@ This project leverages Spotify's Web API to extract, analyze, and visualize musi
 1. Register an app on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) to obtain your **Client ID** and **Client Secret**.
 2. Store the credentials in a `.env` file with the following format: `CLIENT_ID=your_client_id` and `CLIENT_SECRET=your_client_secret`.
 3. Clone the repository by running `git clone https://github.com/Jena-Thaipham/SpotifyAPI_Music.git` and navigate into the project directory using `cd SpotifyAPI_Music`.
-4. Run the `SpotifyETL.py` file to fetch data from the Spotify API and store it in the database by executing `python SpotifyETL.py`. This will start the data extraction process and store the relevant information in your database for further analysis.
-
+4. Run the `SpotifyETL.py` file to fetch data from the Spotify API and store it in the database. This will start the data extraction process and store the relevant information in your database for further analysis.
+5. If additional IDs are needed, run the `fetch_ids.py` script.
 
 
