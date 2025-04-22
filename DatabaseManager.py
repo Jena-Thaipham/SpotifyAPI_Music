@@ -3,6 +3,7 @@ import logging
 import pandas as pd
 from typing import Dict
 from pathlib import Path
+import os
 
 class DatabaseManager:
     def __init__(self, db_path: str = "spotify_db/spotify.db", schema_dir: str = "spotify_db/schema"):
@@ -17,20 +18,17 @@ class DatabaseManager:
             return f.read()
 
     def _initialize_database(self):
+        if Path(self.db_path).exists():
+            os.remove(self.db_path)
+
         self.connection = sqlite3.connect(self.db_path)
         cursor = self.connection.cursor()
         cursor.execute("PRAGMA foreign_keys = OFF")
 
-        schema_files = [
-            'create_artist.sql',
-            'create_user.sql',
-            'create_album.sql',
-            'create_track.sql',
-            'create_playlist.sql',
-            'create_playlist_track.sql'
-        ]
+        schema_dir_path = Path(self.schema_dir)
+        sql_files = sorted(schema_dir_path.glob("*.sql"))
 
-        for schema_file in schema_files:
+        for schema_file in sql_files:
             sql = self._load_schema_file(schema_file)
             cursor.executescript(sql)
 
