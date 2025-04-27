@@ -1,4 +1,3 @@
-import time
 import requests
 import base64
 import logging
@@ -7,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Optional, Dict, List
 from dotenv import load_dotenv
 import json
+import numpy as np
 
 
 class SpotifyExtractor:
@@ -77,18 +77,7 @@ class SpotifyExtractor:
                 'total_tracks': data['tracks']['total'],
                 'public': bool(data['public']),
                 'playlist_uri': data['uri']
-        }
-
-            playlist_info['tracks'] = []
-
-            for track_item in data['tracks']['items']:
-                track_info = {
-                    'added_at': track_item['added_at'],
-                    'track_id': track_item['track']['id'],
-                    'track_name': track_item['track']['name'],
-                }
-                playlist_info['tracks'].append(track_info)
-
+            }
             return playlist_info
         except KeyError as e:
             logging.error(f"Missing field in playlist data: {str(e)}")
@@ -110,10 +99,46 @@ class SpotifyExtractor:
                 'markets': json.dumps(data['available_markets']),
                 'popularity': data['popularity'],
                 'album_uri': data['uri']
-         }
+            }
         except (KeyError, IndexError) as e:
             logging.error(f"Missing field in album data: {str(e)}")
-        return None
+            return None
+
+    def get_playlist_track_info(self, playlist_id: str) -> List[Dict]:
+        tracks_info = []
+        url = f'https://api.spotify.com/v1/playlists/{playlist_id}/tracks?limit=100'
+
+        while url:
+            headers = {'Authorization': f'Bearer {self.get_access_token()}'}
+            try:
+                response = requests.get(url, headers=headers, timeout=15)
+                if response.status_code == 200:
+                    data = response.json()
+                    for track_item in data.get('items', []):
+                        track_data = track_item.get('track')
+                        if not track_data:
+                            logging.warning(f"Track is None in playlist {playlist_id}: {track_item}")
+                            track_data = {}
+
+                        track_info = {
+                            'added_at': track_item.get('added_at', np.nan),
+                            'track_id': track_data.get('id', np.nan),
+                            'track_name': track_data.get('name', np.nan),
+                        }
+                        tracks_info.append(track_info)
+
+                    url = data.get('next')  
+                elif response.status_code == 401:
+                    self.access_token = None
+                    continue
+                else:
+                    logging.error(f"API error {response.status_code} for playlist {playlist_id}")
+                    break
+            except Exception as e:
+                logging.error(f"Request failed: {str(e)}")
+                break
+
+        return tracks_info
 
     def get_artist_info(self, artist_id: str) -> Optional[Dict]:
         data = self.make_request(f'artists/{artist_id}')
@@ -149,10 +174,10 @@ class SpotifyExtractor:
                 'duration_ms': data['duration_ms'],
                 'track_number': data['track_number'],
                 'disc_number': data['disc_number'],
-                'explicit': bool (data['explicit']),
-                'local': bool (data['is_local']),
+                'explicit': bool(data['explicit']),
+                'local': bool(data['is_local']),
                 'track_uri': data['uri']
-             }
+            }
         except (KeyError, IndexError) as e:
             logging.error(f"Missing field in track data: {str(e)}")
             return None
