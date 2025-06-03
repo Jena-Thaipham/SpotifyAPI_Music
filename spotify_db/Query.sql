@@ -62,7 +62,7 @@ FROM tracks t
 JOIN artists ar ON t.artist_id = ar.artist_id
 WHERE t.explicit = 1
 ORDER BY t.popularity DESC
-LIMIT 10;
+
 
 -- Tracks Duration by Genre
 SELECT arg.genre, AVG(t.duration_ms)/60000 AS avg_duration_min
