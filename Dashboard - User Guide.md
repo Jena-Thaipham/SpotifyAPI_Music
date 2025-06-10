@@ -130,8 +130,8 @@ Use the navigation button in Dashboard 1 to jump directly to Dashboard 2 (In-Dep
 [https://public.tableau.com/app/profile/thai.pham7308/viz/DB2In-DepthExplorationofEmergingArtists/Dashboard2](https://public.tableau.com/app/profile/thai.pham7308/viz/DB2In-DepthExplorationofEmergingArtists/Dashboard2)
 
 This dashboard provides a detailed analysis of Emerging Artists, defined as artists with high popularity but low follower count, based on data thresholds established in Dashboard 1.
+
 ![Dashboard 2](./Images/DB2.png)
----
 
 ### Top Emerging Artists By Various Metrics (#1)
 
