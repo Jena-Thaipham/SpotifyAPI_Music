@@ -1,0 +1,4 @@
+artist_category,category_criteria,artist_count
+Emerging,"High popularity (≥ 74.43) & Low followers (< 3,388,441)",134
+Famous,"High popularity (≥ 80) & High followers (≥ 5,000,000)",231
+Other,Does not meet criteria for Emerging or Famous,3054

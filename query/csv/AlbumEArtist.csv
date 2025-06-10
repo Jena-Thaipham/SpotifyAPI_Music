@@ -1,0 +1,305 @@
+artist_name,release_year,album_count
+Adam Port,NULL,0
+Addison Rae,2024,1
+Alan Jackson,1989,1
+Alan Jackson,1994,1
+Alan Jackson,1995,1
+Alan Jackson,2002,1
+Alan Jackson,2003,1
+Alan Jackson,2010,1
+Alan Jackson,2015,1
+Alex G,2010,1
+Alex G,2011,1
+Alex G,2012,2
+Alex G,2014,1
+Alex Warren,2024,1
+Alex Warren,2025,1
+Almighty,NULL,0
+Amitabh Bhattacharya,NULL,0
+Anderson .Paak,NULL,0
+Arcane,NULL,0
+Artemas,2024,1
+B.o.B,2010,1
+Baby Keem,2019,1
+Baby Keem,2021,1
+Bailey Zimmerman,2022,1
+Bailey Zimmerman,2023,1
+Bailey Zimmerman,2024,1
+Beach House,2015,2
+Beéle,2024,1
+Beéle,2025,1
+BigXthaPlug,NULL,0
+Brandon Lake,2023,1
+Brooks & Dunn,1991,1
+Brooks & Dunn,2005,1
+Brooks & Dunn,2009,1
+Brooks & Dunn,2024,1
+C. Tangana,2021,1
+CYRIL,2023,1
+Calle 24,2024,1
+Calmly,2023,12
+Calmly,2024,18
+Calmly,2025,2
+Cast of EPIC: The Musical,NULL,0
+Chencho Corleone,NULL,0
+Clementine Douglas,NULL,0
+Cody Johnson,2023,2
+Connor Price,NULL,0
+DFZM,NULL,0
+DJ Luian,NULL,0
+Daryl Hall & John Oates,1980,1
+Daryl Hall & John Oates,1981,1
+Daryl Hall & John Oates,1982,1
+Dei V,NULL,0
+Diplo,2020,1
+Diplo,2022,2
+Disclosure,NULL,0
+Disney,NULL,0
+Djo,2022,1
+Doechii,2025,2
+Dominic Fike,2018,1
+Dominic Fike,2023,1
+Ella Langley,2023,1
+Ella Langley,2024,3
+Empire Of The Sun,NULL,0
+FISHER,NULL,0
+Faye Webster,2017,1
+Felix Jaehn,NULL,0
+FloyyMenor,2024,2
+FloyyMenor,2025,1
+Forrest Frank,2024,1
+Gigi Perez,2024,2
+Gur Sidhu,NULL,0
+HARDY,2023,1
+HARDY,2025,1
+HUGEL,NULL,0
+Imogen Heap,2005,1
+Irshad Kamil,NULL,0
+JID,2018,1
+Jess Glynne,NULL,0
+Jessie Murph,NULL,0
+John Summit,2024,1
+Jombriel,NULL,0
+Jon Pardi,NULL,0
+Jordan Davis,2018,1
+Jordan Davis,2020,1
+Jordan Davis,2021,1
+Jordan Davis,2022,2
+Jordan Davis,2023,1
+Jordan Davis,2024,1
+Jordan Davis,2025,1
+Jorge Rivera-Herrans,2024,8
+Jorsshh,NULL,0
+Juicy J,NULL,0
+Jøtta,NULL,0
+Kacey Musgraves,NULL,0
+Kapo,NULL,0
+Kausar Munir,NULL,0
+Keinemusik,NULL,0
+Ken Carson,2024,1
+Kumaar,NULL,0
+LUCKI,2025,1
+Lainey Wilson,2022,3
+Lainey Wilson,2024,1
+Lainey Wilson,2025,1
+Latto,2025,1
+League of Legends,NULL,0
+Lenny Tavárez,NULL,0
+Leon Thomas,2025,1
+Lil Jon,NULL,0
+Lily-Rose Depp,NULL,0
+Lizzy McAlpine,2022,1
+Lola Young,2024,3
+London Symphony Orchestra,NULL,0
+Lord Huron,2015,2
+Lost Frequencies,2016,1
+Lost Frequencies,2023,1
+Luan Pereira,NULL,0
+Luar La L,NULL,0
+MC Cebezinho,NULL,0
+MC GP,NULL,0
+Macklemore,2017,1
+Mainstreet,NULL,0
+Mambo Kingz,NULL,0
+Mark Ronson,2015,1
+Mc Rodrigo do CN,NULL,0
+Megan Moroney,2022,1
+Megan Moroney,2023,1
+Megan Moroney,2024,1
+Montell Fish,2022,1
+Myles Smith,2023,1
+Myles Smith,2024,3
+NOTION,NULL,0
+Natasha Bedingfield,2007,1
+Nate Dogg,NULL,0
+Neton Vega,2025,1
+Omar Courtz,NULL,0
+Outkast,2000,1
+Phoebe Bridgers,2018,1
+Pure Relaxing Vibes,2020,1
+Pure Relaxing Vibes,2021,5
+Pure Relaxing Vibes,2022,3
+Pure Relaxing Vibes,2023,1
+RAYE,2022,1
+ROA,2024,1
+Ray Dalton,NULL,0
+Riley Green,2023,1
+Riley Green,2024,2
+Robin Schulz,2015,1
+Sam Barber,2024,1
+Santhosh Narayanan,NULL,0
+Sexyy Red,2024,1
+Shaboozey,2024,4
+Shaggy,2014,1
+Shenseea,NULL,0
+Shilpa Rao,NULL,0
+Skepta,NULL,0
+Sleepy Hallow,2021,1
+Sleepy Hallow,2022,1
+Sublime,1996,1
+Supernova Ent,NULL,0
+Swae Lee,NULL,0
+Tainy,2021,1
+Tems,NULL,0
+The Goo Goo Dolls,1998,1
+The Marías,2024,1
+Timbaland,2007,1
+Timbaland,2009,1
+Tyla,2023,1
+Tyla,2024,1
+Vance Joy,2014,2
+Vance Joy,2018,1
+WIU,2022,1
+WizTheMc,NULL,0
+Zach Top,2024,1
+bees & honey,NULL,0
+benny blanco,2021,1
+sombr,2024,1
+sombr,2025,1
+wifiskeleton,2024,1
+yung kai,2024,1
+¥$,NULL,0
+Øneheart,NULL,0
+
+artist_name,release_year,is_top_artist,album_count
+Alan Jackson,1989,Yes,1
+Alan Jackson,1994,Yes,1
+Alan Jackson,1995,Yes,1
+Alan Jackson,2002,Yes,1
+Alan Jackson,2003,Yes,1
+Alan Jackson,2010,Yes,1
+Alan Jackson,2015,Yes,1
+Alex G,2010,Yes,1
+Alex G,2011,Yes,1
+Alex G,2012,Yes,2
+Alex G,2014,Yes,1
+Baby Keem,2019,Yes,1
+Baby Keem,2021,Yes,1
+Bailey Zimmerman,2022,Yes,1
+Bailey Zimmerman,2023,Yes,1
+Bailey Zimmerman,2024,Yes,1
+Brooks & Dunn,1991,Yes,1
+Brooks & Dunn,2005,Yes,1
+Brooks & Dunn,2009,Yes,1
+Brooks & Dunn,2024,Yes,1
+Cody Johnson,2023,Yes,2
+Daryl Hall & John Oates,1980,Yes,1
+Daryl Hall & John Oates,1981,Yes,1
+Daryl Hall & John Oates,1982,Yes,1
+Diplo,2020,Yes,1
+Diplo,2022,Yes,2
+FloyyMenor,2024,Yes,2
+FloyyMenor,2025,Yes,1
+Lost Frequencies,2016,Yes,1
+Lost Frequencies,2023,Yes,1
+Sleepy Hallow,2021,Yes,1
+Sleepy Hallow,2022,Yes,1
+Timbaland,2007,Yes,1
+Timbaland,2009,Yes,1
+Vance Joy,2014,Yes,2
+Vance Joy,2018,Yes,1
+Addison Rae,2024,No,1
+Alex Warren,2024,No,1
+Alex Warren,2025,No,1
+Artemas,2024,No,1
+B.o.B,2010,No,1
+Beach House,2015,No,2
+Beéle,2024,No,1
+Beéle,2025,No,1
+Brandon Lake,2023,No,1
+C. Tangana,2021,No,1
+CYRIL,2023,No,1
+Calle 24,2024,No,1
+Calmly,2023,No,12
+Calmly,2024,No,18
+Calmly,2025,No,2
+Djo,2022,No,1
+Doechii,2025,No,2
+Dominic Fike,2018,No,1
+Dominic Fike,2023,No,1
+Ella Langley,2023,No,1
+Ella Langley,2024,No,3
+Faye Webster,2017,No,1
+Forrest Frank,2024,No,1
+Gigi Perez,2024,No,2
+HARDY,2023,No,1
+HARDY,2025,No,1
+Imogen Heap,2005,No,1
+JID,2018,No,1
+John Summit,2024,No,1
+Jordan Davis,2018,No,1
+Jordan Davis,2020,No,1
+Jordan Davis,2021,No,1
+Jordan Davis,2022,No,2
+Jordan Davis,2023,No,1
+Jordan Davis,2024,No,1
+Jordan Davis,2025,No,1
+Jorge Rivera-Herrans,2024,No,8
+Ken Carson,2024,No,1
+LUCKI,2025,No,1
+Lainey Wilson,2022,No,3
+Lainey Wilson,2024,No,1
+Lainey Wilson,2025,No,1
+Latto,2025,No,1
+Leon Thomas,2025,No,1
+Lizzy McAlpine,2022,No,1
+Lola Young,2024,No,3
+Lord Huron,2015,No,2
+Macklemore,2017,No,1
+Mark Ronson,2015,No,1
+Megan Moroney,2022,No,1
+Megan Moroney,2023,No,1
+Megan Moroney,2024,No,1
+Montell Fish,2022,No,1
+Myles Smith,2023,No,1
+Myles Smith,2024,No,3
+Natasha Bedingfield,2007,No,1
+Neton Vega,2025,No,1
+Outkast,2000,No,1
+Phoebe Bridgers,2018,No,1
+Pure Relaxing Vibes,2020,No,1
+Pure Relaxing Vibes,2021,No,5
+Pure Relaxing Vibes,2022,No,3
+Pure Relaxing Vibes,2023,No,1
+RAYE,2022,No,1
+ROA,2024,No,1
+Riley Green,2023,No,1
+Riley Green,2024,No,2
+Robin Schulz,2015,No,1
+Sam Barber,2024,No,1
+Sexyy Red,2024,No,1
+Shaboozey,2024,No,4
+Shaggy,2014,No,1
+Sublime,1996,No,1
+Tainy,2021,No,1
+The Goo Goo Dolls,1998,No,1
+The Marías,2024,No,1
+Tyla,2023,No,1
+Tyla,2024,No,1
+WIU,2022,No,1
+Zach Top,2024,No,1
+benny blanco,2021,No,1
+sombr,2024,No,1
+sombr,2025,No,1
+wifiskeleton,2024,No,1
+yung kai,2024,No,1
