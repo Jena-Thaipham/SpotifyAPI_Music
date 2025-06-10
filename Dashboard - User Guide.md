@@ -1,183 +1,190 @@
-Overview
+# Overview
+
 This document provides guidance on how to interact with the two dashboards created to analyze and compare music artists based on Spotify data.
 
-🔹 Dashboard 1: Emerging vs. Famous Artists Overview
+---
+
+## 🔹 Dashboard 1: Emerging vs. Famous Artists Overview
+
+**Link:**  
+[https://public.tableau.com/app/profile/thai.pham7308/viz/DB1Emergingvs_FamousArtistsOverview/Dashboard1](https://public.tableau.com/app/profile/thai.pham7308/viz/DB1Emergingvs_FamousArtistsOverview/Dashboard1)
+
 This dashboard provides a comprehensive overview comparing Emerging and Famous artists based on their popularity, follower count, and key performance metrics. The charts are color-coded consistently across the dashboard to distinguish between the two groups:
-Emerging Artists: High popularity but low follower count
+
+- **Emerging Artists:** High popularity but low follower count  
+- **Famous Artists:** High popularity and high follower count
+
+### Thresholds are calculated based on statistical analysis of the full dataset:
+
+- **Follower thresholds** are based on log-scale mean and standard deviation:  
+low_threshold = round(mean_log - std_log, 2)
+high_threshold = round(mean_log + std_log, 2)
+- **Popularity thresholds** are based on:  
+low_threshold = round(mean_pop - std_pop, 2)
+high_threshold = round(mean_pop + std_pop, 2)
+
+---
+
+## Chart Descriptions
+
+All tables and charts in the dashboard are numbered as shown in the illustration to facilitate easy reference and tracking.
 
 
-Famous Artists: High popularity and high follower count
+### Table: Artist Group Summary by Popularity & Followers (#1)
 
+This table displays the number of artists categorized as Emerging or Famous, based on predefined thresholds of popularity and follower count.
 
-Thresholds are calculated based on statistical analysis of the full dataset:
-Follower thresholds are based on log-scale mean and standard deviation:
- low_log = round(mean_log - std_log, 2)
- high_log = round(mean_log + std_log, 2)
+**Insight Provided:**  
+The table simply reports the count of artists in each group, offering a quick overview of how many meet the criteria for Emerging or Famous status.
 
+---
 
-Popularity thresholds are based on:
- low_threshold = round(mean_pop - std_pop, 2)
- high_threshold = round(mean_pop + std_pop, 2)
-🔹 Chart Descriptions
-Artist Count by Follower Group
+### Popularity vs. Followers: Emerging vs. Famous Artists (#2)
 
+- This dual bar chart compares the average popularity and average follower count between Emerging and Famous artists.  
+- Hover over bars to see the details.
 
-Displays how artists are distributed across low, medium, and high follower groups.
+**Insights Provided:**  
+- Shows that Famous artists not only have higher followers, but may also slightly outperform in popularity.  
+- Highlights that Emerging artists can have comparable popularity, despite having significantly fewer followers.  
+- Helps identify the gap between audience reach and perceived popularity.
 
+---
 
-Helps to understand the general follower landscape.
+### Comparison of Track and Album Popularity (#3)
 
+This bar chart compares the average popularity of albums and tracks across two artist categories: Emerging and Famous. Each group is represented by two bars—one for average album popularity and one for average track popularity.
 
-Artist Count by Popularity Group
+**Insights Provided:**  
+This chart compares the average popularity of tracks and albums between Emerging and Famous artists. Interestingly, Emerging artists show slightly higher average popularity scores, suggesting they may be gaining more traction despite having fewer followers.
 
+---
 
-Shows how many artists fall into low, medium, and high popularity categories.
+### Impact of Playlist Owner on Artist Followers (#4)
 
+**Definition – Follower Gap:**  
+Follower Gap = Playlist Owner’s Follower Count - Average Follower Count of the Artist Group in a specific playlist.
 
-Provides insight into artist visibility and reach.
+**Insights Provided:**  
+This metric illustrates the potential opportunity for an artist to gain visibility by being featured in a playlist. It calculates the gap as the playlist owner's follower count minus the artist's followers. A more positive gap indicates a greater opportunity for the artist to leverage the playlist owner's audience for increased exposure. Conversely, a gap close to zero or negative suggests little to no opportunity for visibility boost through that playlist.
 
+---
 
-Key Metrics Comparison Between Emerging and Famous Artists
+### Key Metrics Comparison Between Emerging and Famous Artist (#5)
 
+This section provides a side-by-side comparison of average values across several important metrics for emerging and famous artists. These metrics include the average number of playlists, albums, tracks, and genres associated with each artist group.
 
-Compares average values for:
- Album Count, Album Popularity, Genre Count, Playlist Count, Track Count, and Track Popularity.
+- Hover over bars to see the details.
 
+**Insights Provided:**  
+- Helps identify which artist group is more extensively represented across Spotify content types.  
+- A higher average playlist count for one group may indicate stronger promotional exposure.  
+- Differences in album and track counts can reflect varying levels of productivity or catalog size.  
+- Genre diversity (via average genre count) may reveal how versatile or niche the artists are in each group.
 
-Bar chart format; provides a snapshot of overall engagement and diversity.
+---
 
+### Yearly Trend of Artist Followers (#6)
 
-Popularity vs. Followers: Emerging vs. Famous Artists
+Line chart illustrating average followers over time for Emerging and Famous artists. Tooltip shows yearly average follower values.
 
+**Insights Provided:**  
+This chart reveals how the follower counts for Emerging and Famous artists have evolved over time, highlighting growth trends and periods of accelerated popularity for each group.
 
-Visualizes the relationship between artist popularity and follower count.
+---
 
+### Yearly Trend of Artist Popularity (#7)
 
-Highlights distinct positioning of each group based on defined thresholds.
+Line chart showing average popularity over time, separated by artist category. Tooltip reveals year-specific average popularity.
 
+**Insights provided:**  
+This chart highlights how the average popularity of Emerging and Famous artists changes over time, revealing shifts in audience interest and artist impact within each category.
 
-Playlist Owner and Artist Follower Comparison
+---
 
+### Yearly Trend of Average Released Albums (#8)
 
-Compares average follower counts of emerging artists and all artists per playlist.
+Tracks how many albums were released each year by Emerging artists. Tooltip shows year and album count.
 
+**Insights provided:**  
+This chart shows the annual volume of album releases by Emerging artists, indicating their productivity and engagement with the market over the years.
 
-Also shows playlist owner’s follower count for additional context.
+---
 
+### Yearly Trend of Tracks (#9)
 
-Yearly Trend of Artist Popularity
+Displays the number of tracks released per year by Emerging artists. Tooltip shows year and track count.
 
+**Insights provided:**  
+This chart tracks the yearly count of tracks released by Emerging artists, providing insight into their content output and potential growth in presence over time.
 
-Line chart showing average popularity over time, separated by artist category.
+---
 
+## 🔗 Navigation Tip
 
-Tooltip reveals year-specific average popularity.
+Use the navigation button in Dashboard 1 to jump directly to Dashboard 2 (In-Depth Exploration of Emerging Artists) for a focused exploration of Emerging Artists.
 
+## 🔹 Dashboard 2: In-Depth Exploration of Emerging Artists
 
-Yearly Trend of Artist Followers
+**Link:**  
+[https://public.tableau.com/app/profile/thai.pham7308/viz/DB2In-DepthExplorationofEmergingArtists/Dashboard2](https://public.tableau.com/app/profile/thai.pham7308/viz/DB2In-DepthExplorationofEmergingArtists/Dashboard2)
 
-
-Line chart illustrating average followers over time for Emerging and Famous artists.
-
-
-Tooltip shows yearly average follower values.
-
-
-Yearly Trend of Average Released Albums
-
-
-Tracks how many albums were released each year by Emerging artists.
-
-
-Tooltip shows year and album count.
-
-
-Yearly Trend of Tracks
-
-
-Displays the number of tracks released per year by Emerging artists.
-
-
-Tooltip shows year and track count.
-
-
-
-🎨 Color Legend (Unified across dashboard)
-
-📌 Usage Notes
-Hover tooltips on line charts provide detailed yearly statistics.
-🔗 Navigation Tip: Use the navigation button in Dashboard 1 to jump directly to Dashboard 2 (In-Depth Exploration of Emerging Artists)  for a focused exploration of Emerging Artists.
-🔹Dashboard 2: In-Depth Exploration of Emerging Artists
 This dashboard provides a detailed analysis of Emerging Artists, defined as artists with high popularity but low follower count, based on data thresholds established in Dashboard 1.
 
-🔹 Chart Descriptions
-Genre-Based Overview of Emerging Artists’ Activity
+---
 
+### Top Emerging Artists By Various Metrics (#1)
 
-Visualizes each Emerging Artist’s track count, album count, and playlist count.
-Filter by Artist Name and Genre.
-Color: Each genre is color-coded.
-Tooltip shows detailed activity per artist.
+This table displays the names and key metrics of Emerging Artists, including:
 
+- **Follower Count:** Total number of followers an artist has.  
+- **Popularity:** Overall popularity score of the artist.  
+- **Track Count:** Total number of tracks by the artist.  
+- **Album Count:** Total number of albums by the artist.  
+- **Playlist Count:** Total number of playlists that include tracks by the artist.  
+- **Track Popularity:** Average popularity score of all tracks by the artist.  
+- **Album Popularity:** Average popularity score of all albums by the artist.
 
-Top Genres Among Emerging Artists
+**Use the Metric Filter to select artists based on different criteria:**
 
+- **Top By Follower:** Artists with follower counts above the average of all emerging artists.  
+- **Top By Popularity:** Artists with overall popularity above average.  
+- **Top By Track, Top By Album, Top By Playlist:** Artists whose counts of tracks, albums, or playlists they appear in exceed the average.  
+- **Top By Track Rate, Top By Album Rate:** Artists whose average track or album popularity is above the average of all emerging artists.  
+- **Top By All Count:** Artists exceeding the average in all count-based metrics (followers, tracks, albums, playlists).  
+- **Top By All Rate:** Artists exceeding the average in all popularity-based metrics (artist popularity, track popularity, album popularity).
 
-Bar chart showing:
-Artist Count per genre
-Average Artist Popularity (bar height)
-Average Follower Count as label
-Filter by genre to narrow down insights.
+---
 
+### Chart: Annual Album Output per Emerging Artist (#2)
 
-Relationship Between Track and Album Popularity of Emerging Artists
+Shows the number of albums released each year by emerging artists (only artists with release date information appear). The chart updates dynamically based on the Metric Filter selections.
 
+---
 
-Scatter plot comparing:
-Avg Track Popularity (x-axis)
-Avg Album Popularity (y-axis)
-Label each dot with Artist Popularity to identify standout performers.
+### Chart: Top Most Popular Track (#3)
 
+Displays the most popular track(s) for each artist according to the current Metric Filter. If an artist has multiple tracks tied for highest popularity, all are shown. Hover over each track for detailed information.
 
-Emerging Artists: Album Release Trend Over the Years
+> **Note:** Since this shows only the top track per artist, the total number of tracks here is usually less than the track count shown in Table 1.
 
+---
 
-Line chart showing the total number of albums released each year by all Emerging Artists.
-Helps identify active years and growth trends.
+### Interaction Tip
 
+Click on any artist’s name in Table 1 to filter the two charts, so they display information only for the selected artist.
 
-Annual Album Output per Emerging Artist
+---
 
+### Insights Provided
 
-Vertical bar chart showing number of albums per year for each Emerging Artist.
-Filter available by Artist Name and Release Year.
-Label shows exact album count for that year.
+- Highlights emerging artists’ performance across multiple key metrics, such as follower counts and popularity scores.  
+- The annual album output chart reveals productivity trends of emerging artists over time.  
+- The top track chart identifies standout tracks contributing to an artist’s popularity.  
+- The metric filter allows flexible exploration of artist groups based on various success dimensions, enabling comparisons within the emerging artist category.
 
+---
 
-Most Popular Albums of Emerging Artists
+## 🔗 Navigation Tip
 
-
-Top 10 albums ranked by Album Popularity.
-Tooltip includes Artist Name(s) and Track Count on the album.
-Useful to explore what types of albums resonate most.
-
-
-Most Popular Tracks of Emerging Artists
-
-
-Top 10 tracks ranked by Track Popularity.
-Color represents Genre.
-Label indicates number of playlists that include the track.
-Bar width or height represents Track Duration, giving additional dimension to popularity.
-
-
-
-🎨 Color Scheme
-🎨 Genres have distinct colors for differentiation
-
-🧭 Tips for Using This Dashboard
-Use filters to dive deep into specific artists, genres, or years.
-Tooltips provide rich detail — hover over points, bars, or lines for deeper insights.
-Combine this dashboard with Dashboard 1 for a complete story: from overview to deep dive.
-
-
+The **"Compare Emerging vs. Famous Artist"** button offers a quick way to navigate back to the overall artist group comparison dashboard.
