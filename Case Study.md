@@ -37,7 +37,7 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 3. **Productivity & Trend Dynamics:**  
   Yearly trends show that followers of Emerging artists fluctuate frequently, with a slight decline in recent years; popularity has slightly increased, the number of albums released has steadily risen, while the number of tracks released varies with some fluctuations. Overall, this suggests that while Emerging artists face difficulties in maintaining a stable follower base, they continue to develop their music output and slowly increase their popularity — signaling potential for growth if engagement can be improved.
 
-4. **Two Roads to Recognition: Popularity vs. Productivity**
+4. **Two Roads to Recognition: Popularity vs. Productivity:**
   Among top Emerging artists:
 - Some artists gain visibility with highly popular tracks despite having fewer followers — thanks to strong playlist inclusion and consistent quality.
 - Others achieve high follower and playlist counts through a large number of releases, even if their average track or album popularity is lower.
