@@ -1,4 +1,4 @@
-# Tune into Success: Case Study
+# Case Study: Spotify Artist Analysis — Emerging vs Famous Artists
 
 ## Introduction
 
@@ -69,7 +69,5 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 
 This case study demonstrates how Spotify data, when analyzed and visualized effectively, can reveal valuable insights into artist development and music consumption trends. By distinguishing Emerging and Famous artists, stakeholders can better allocate resources, tailor marketing, and support artist growth, ultimately driving business success in the competitive music industry.
 
-## Appendix (optional)
 
-- 📷 **Screenshots**: See `/Images/DB1.png` and `/Images/DB2.png` for dashboard layouts  
 
