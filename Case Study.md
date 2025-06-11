@@ -58,7 +58,7 @@ Emerging artists succeed through different paths — either by creating standout
 -  **Expand Cross-Platform Presence:**
 Encourage artists to promote music on multiple streaming services and social media channels to broaden reach beyond Spotify.
 
-  **Engage with Fan Communities:**
+- **Engage with Fan Communities:**
 Facilitate direct interaction between artists and fans through social media, live events, and fan-driven playlists to deepen loyalty and increase organic growth.
 
 ## Action Plan
