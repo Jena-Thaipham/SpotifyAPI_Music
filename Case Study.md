@@ -35,14 +35,14 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
    The follower gap metric shows that playlist owners typically have fewer followers than the Emerging artists featured. This indicates that the current playlists may provide limited exposure benefits to the artists, suggesting a need to target playlists managed by users with larger audiences to boost artist visibility effectively.
 
 3. **Productivity & Trend Dynamics:**  
-Yearly trends show that followers of Emerging artists fluctuate frequently, with a slight decline in recent years; popularity has slightly increased, the number of albums released has steadily risen, while the number of tracks released varies with some fluctuations. Overall, this suggests that while Emerging artists face difficulties in maintaining a stable follower base, they continue to develop their music output and slowly increase their popularity — signaling potential for growth if engagement can be improved.
+  Yearly trends show that followers of Emerging artists fluctuate frequently, with a slight decline in recent years; popularity has slightly increased, the number of albums released has steadily risen, while the number of tracks released varies with some fluctuations. Overall, this suggests that while Emerging artists face difficulties in maintaining a stable follower base, they continue to develop their music output and slowly increase their popularity — signaling potential for growth if engagement can be improved.
 
 4. **Two Roads to Recognition: Popularity vs. Productivity**
-Among top Emerging artists:
+  Among top Emerging artists:
 - Some artists gain visibility with highly popular tracks despite having fewer followers — thanks to strong playlist inclusion and consistent quality.
 - Others achieve high follower and playlist counts through a large number of releases, even if their average track or album popularity is lower.
 - Notably, artists with more releases still have greater chances of producing at least one high-popularity track.
-Emerging artists succeed through different paths — either by creating standout content or maintaining high output. Both strategies can drive exposure on streaming platforms.
+  Emerging artists succeed through different paths — either by creating standout content or maintaining high output. Both strategies can drive exposure on streaming platforms.
 
 ## Business Recommendations
 
