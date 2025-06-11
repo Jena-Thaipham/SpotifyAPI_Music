@@ -8,7 +8,7 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 
 ## Data & Tools
 
-- **Data Source:** Spotify Web API – track, artist, album, playlist, and popularity data  
+- **Data Source:** Spotify Web API – track, artist, album, playlist, and user data  
 - **Database:** SQLite for structured data storage  
 - **Programming:** Python for data extraction and processing  
 - **Visualization:** Tableau for creating interactive dashboards  
