@@ -31,11 +31,12 @@ This project leverages Spotify's Web API to extract, analyze, and visualize musi
 ### 5. Reporting and Presentation
 - **Comprehensive Report**: Summarize key findings, trends, and business recommendations in a detailed report.
 - **Interactive Dashboard**: Develop a dynamic dashboard to allow stakeholders to explore and interact with the data.
-- 
+
 ## Usage
 - To explore the interactive dashboards, visit the Tableau Public link: [Dashboard](https://public.tableau.com/app/profile/thai.pham7308/viz/DB1Emergingvs_FamousArtistsOverview/Dashboard1).
 - Use filters and controls in the dashboard to analyze music trends by genre, artist, and time period.
 - For a detailed explanation of how the dashboards work and the insights provided, please refer to the `Dashboard_User_Guide.md` file located in this repository. This guide will help you better understand the data visualizations and how to interpret the results.
+- 📄 For a detailed walkthrough of insights and business recommendations, check out the [full case study](./Case_Study.md).
 
 ## Technologies Used
 - **Programming Languages**: Python
@@ -75,6 +76,7 @@ These next steps would further strengthen the value of the analysis and bring ev
 3. Clone the repository by running `git clone https://github.com/Jena-Thaipham/SpotifyAPI_Music.git` and navigate into the project directory using `cd SpotifyAPI_Music`.
 4. Run the `SpotifyBatchETL.py` file to fetch data from the Spotify API and store it in the database. This will start the data extraction process and store the relevant information in your database for further analysis.
 5. If additional IDs are needed, run the `fetch_ids.py` script.
+
 
 
 
