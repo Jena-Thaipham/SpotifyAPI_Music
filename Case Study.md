@@ -31,8 +31,8 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 1. **Emerging vs. Famous Artist Profiles:**  
    While Famous artists have higher follower counts and larger catalogs, Emerging artists can achieve comparable popularity, indicating rising influence despite lower audience reach.
 
-2. **Playlist Exposure Opportunities:**  
-   The follower gap metric reveals significant potential for Emerging artists to gain visibility through playlists owned by high-follower accounts.
+2. **Playlist Exposure Challenges:**  
+   The follower gap metric shows that playlist owners typically have fewer followers than the Emerging artists featured. This indicates that the current playlists may provide limited exposure benefits to the artists, suggesting a need to target playlists managed by users with larger audiences to boost artist visibility effectively.
 
 3. **Productivity & Trend Dynamics:**  
    Yearly trends show Emerging artists steadily increasing album and track releases, with rapid growth in followers and popularity over time.
@@ -42,14 +42,17 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 - **Leverage Playlist Placements:**  
   Prioritize featuring Emerging artists on high-follower playlists to boost exposure and follower growth.
 
-- **Targeted Marketing Campaigns:**  
-  Use genre and audience trend data to design tailored marketing for Emerging artists.
-
 - **Early Identification of Rising Talent:**  
   Monitor popularity and productivity metrics to invest in artists with high growth potential.
 
 - **Optimize Release Timing:**  
   Align album and track releases with identified productivity trends to maximize audience engagement.
+
+-  **Expand Cross-Platform Presence:**
+Encourage artists to promote music on multiple streaming services and social media channels to broaden reach beyond Spotify.
+
+  **Engage with Fan Communities:**
+Facilitate direct interaction between artists and fans through social media, live events, and fan-driven playlists to deepen loyalty and increase organic growth.
 
 ## Action Plan
 
@@ -62,7 +65,10 @@ Two interactive Tableau dashboards, developed using Spotify API data, provide co
 3. **Cross-Platform Analysis:**  
    Incorporate data from YouTube, Apple Music, and other platforms for holistic artist performance insights.
 
-4. **Build Predictive Models:**  
+4. **Data-Driven Marketing Campaigns:**
+Collect additional data on listener demographics, regions, and genres to enable tailored marketing efforts in future campaigns
+
+5. **Build Predictive Models:**  
    Implement time-series forecasting to anticipate trends and guide proactive marketing.
 
 ## Conclusion
